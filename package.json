@@ -1,0 +1,20 @@
+{
+  "name": "typescript-node-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node_modules/.bin/ts-node lib/index.ts",
+    "build": "node_modules/.bin/tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.8.4",
+    "@types/node": "^18.11.7",
+    "ts-node": "^10.9.1"
+  }
+}
